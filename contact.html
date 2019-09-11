@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kontakt</title>
+</head>
+<body>
+  <header>
+    <h1>Kontakt</h1>
+    <div class="topnavigation">
+      <a href="index.html">Hem</a>
+      <a href="about.html">Om mig</a>
+      <a href="movies.html">Favoritfilmer</a>
+      <a href="links.html">Länkar</a>
+      <a class="active" href="contact.html">Kontakt</a>
+    </div>
+  </header>
+  <fieldset>
+    <form action="" method="get" class="form">
+      <div class="form">
+        <label for="namn">Skriv in ditt för- och efternamn: </label>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="email">Ange din e-mail: </label>
+        <input type="text" name="email" id="email" required><br>
+
+        <label for="genre">Filmgenre</label>
+        <select id="genre">
+          <option value="">--Välj ett av följande:--</option>
+          <option value="action">Action</option>
+          <option value="romantisk">Romantisk</option>
+          <option value="drama">Drama</option>
+          <option value="sci-fi">Sci-fi</option>
+        </select><br>
+        <label for="favoritfilm">Textfält:</label>
+        <textarea name="favoritfilm" rows="10" cols="30"></textarea>
+        <div class="form">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+  </fieldset>
+  <footer>
+    <p>Gjord av:<b>Cecilia Wester</b></p><br>
+    <p>Kontakt:<a href="mailto:cecilia.svensson.is@gmail.com">cecilia.svensson.is@gmail.com</a>.</p>
+  </footer>
+</body>
