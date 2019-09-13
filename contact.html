@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <title>Kontakt</title>
 </head>
-<body>
+<body id="contact">
   <header>
     <h1>Kontakt</h1>
     <div class="topnavigation">
@@ -18,22 +19,22 @@
   <fieldset>
     <form action="" method="get" class="form">
       <div class="form">
-        <label for="namn">Skriv in ditt för- och efternamn: </label>
+        <label for="namn">Skriv in ditt för- och efternamn: </label><br>
         <input type="text" name="name" id="name" required><br>
 
-        <label for="email">Ange din e-mail: </label>
+        <label for="email">Ange din e-mail: </label><br>
         <input type="text" name="email" id="email" required><br>
 
-        <label for="genre">Filmgenre</label>
+        <label for="genre">Filmgenre</label><br>
         <select id="genre">
           <option value="">--Välj ett av följande:--</option>
           <option value="action">Action</option>
-          <option value="romantisk">Romantisk</option>
+          <option value="romantisk">Romantik</option>
           <option value="drama">Drama</option>
           <option value="sci-fi">Sci-fi</option>
         </select><br>
-        <label for="favoritfilm">Textfält:</label>
-        <textarea name="favoritfilm" rows="10" cols="30"></textarea>
+        <label for="favoritfilm">Skriv in din favoritfilm:</label><br>
+        <textarea name="favoritfilm" rows="5" cols="30"></textarea>
         <div class="form">
           <input type="submit" value="Submit">
         </div>

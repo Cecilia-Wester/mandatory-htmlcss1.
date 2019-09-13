@@ -1,0 +1,89 @@
+header{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin: 20px;
+    background: white;
+    margin: 0;
+    text-decoration: none;
+    }
+
+.topnavigation{
+text-align: center;
+font-size: 20px;
+margin: 30px;
+padding: 50px;
+text-decoration: none;
+}
+
+
+body{
+background: rgba(214, 216, 218, 0.986);
+height: 100%;
+width: 100%;
+}
+
+.active{
+    background-color:blanchedalmond;
+}
+
+.img{
+    float: left;
+    width: 100%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+article{
+    max-height: 600px;
+    max-width: 50%;
+    float: left;
+} 
+}
+#index{
+    max-height: 600px;
+    width: 100%
+}
+.foodwrap{
+    float: left;
+    height: 400px;
+    width: 400px;
+}
+.kaka{
+    float: left;
+    height: 400px;
+    width: 200px;
+} 
+.kullaberg{
+    float: left;
+    max-width: 600px; 
+}
+
+table{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+th,td{
+    border: 2px solid black;
+    padding: 40px,40px;
+    text-align: left;
+    height: 50px;
+    width: 100px;
+    
+}
+table{
+    text-align: center;
+    
+}
+tbody tr:nth-child(2n){
+    background-color: grey;
+}
+
+footer{
+    clear: both;
+    text-align: left;
+    height: 90px;
+    width: 100%;
+    background: black;
+    color: white;
+    margin-left: none;
+}
